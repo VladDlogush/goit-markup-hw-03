@@ -1,0 +1,238 @@
+:root {
+  /* Fonts */
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+
+  /* Font weight */
+  --regular-weight: 400;
+  --medium-weight: 500;
+  --bold-weight: 700;
+
+  /* Colors */
+  --cloud-color: #f4f4fd;
+  --primary-brand-color: #4d5ae5;
+  --navy-blue-color: #2e2f42;
+  --grey-color: #2e2f42b2;
+  --slate-color: #434455;
+  --light-slate-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --white-color: #FFFFFF;
+  --success-color: #31d0aa;
+  --modal-bg-color: #fcfcfc;
+  --active-bg-color: #404bbf;
+
+  /* Fonts Size */
+  --small-size: 12px;
+  --medium-size: 16px;
+  --large-size: 20px;
+  --xLarge-size: 36px;
+  --xxLarge-size: 56px;
+}
+
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+
+body {
+  font-family: var(--main-font);
+  font-size: var(--medium-size);
+  font-weight: var(--regular-weight);
+  background-color: var(--white-color);
+  color: var(--slate-color);
+  line-height: 1.5;
+}
+
+.list {
+  list-style: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+/**
+  |============================
+  | Main page
+  |============================
+  | Header styles
+  |============================
+*/
+
+.background {
+  background-color: var(--white-color);
+}
+
+.logo {
+  color: var(--primary-brand-color);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-logo-accent {
+  color: var(--navy-blue-color);
+}
+
+.header-link {
+  color: var(--navy-blue-color);
+  font-weight: var(--medium-weight);
+  font-size: var(--medium-size);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--active-bg-color);
+}
+
+.header-contact {
+  font-style: normal;
+}
+
+.contact {
+  color: var(--slate-color);
+}
+  
+
+/**
+  |============================
+  | First Container styles
+  |============================
+*/
+
+.first-container {
+  letter-spacing: 0.02em;
+}
+
+.second-background {
+  background-color: var(--navy-blue-color);
+}
+
+.first-container-title {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 56px;
+  font-weight: var(--bold-weight);
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.first-container-btn {
+  font-family: inherit;
+  background-color: var(--primary-brand-color);
+  color: var(--white-color);
+  font-size: inherit;
+  font-weight: var(--medium-weight);
+  line-height: inherit;
+  letter-spacing: 0.04em;
+}
+
+.first-container-btn:hover,
+.first-container-btn:focus {
+  background-color: var(--active-bg-color);
+}
+
+/**
+  |============================
+  | Second Container styles
+  |============================
+*/
+
+.second-container {
+  letter-spacing: 0.02em;
+}
+
+.title {
+  color: var(--navy-blue-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: var(--bold-weight);
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.item-title {
+  color: var(--navy-blue-color);
+  font-size: 20px;
+  font-weight: var(--medium-weight);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text {
+  color: var(--slate-color);
+  letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | Fourth Container styles
+  |============================
+*/
+
+.fourth-container {
+  background-color: var(--cloud-color);
+  letter-spacing: 0.02em;
+}
+
+.fourth-container-item {
+  background-color: var(--white-color);
+}
+
+.name,
+.specialty {
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | Footer styles
+  |============================
+*/
+
+.footer-logo-accent {
+  color: var(--cloud-color);
+}
+
+.footer-text {
+  color: var(--cloud-color);
+  letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | Portfolio page
+  |============================
+  | Categories styles
+  |============================
+*/
+
+.categories-container-btn {
+  border: 1px solid var(--accent-color);
+  background: var(--cloud-color);
+  color: var(--primary-brand-color);
+  text-align: center;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.categories-container-btn:hover,
+.categories-container-btn:focus {
+  background-color: var(--active-bg-color);
+  color: var(--white-color);
+}
