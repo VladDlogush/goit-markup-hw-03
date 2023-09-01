@@ -58,7 +58,7 @@ ul {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -107,6 +107,7 @@ h6 {
 }
 
 .logo {
+  display: inline-block;
   color: var(--primary-brand-color);
   font-family: var(--secondary-font);
   font-size: 18px;
@@ -114,7 +115,7 @@ h6 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 74px;
+  margin-right: 76px;
 }
 
 .link {
@@ -126,7 +127,7 @@ h6 {
 }
 
 .header-list {
-  display: inline-flex;
+  display: flex;
   align-items: flex-start;
   gap: 40px;
 }
@@ -172,6 +173,7 @@ h6 {
 }
 
 .first-container-title {
+  margin: 0 auto;
   color: var(--white-color);
   text-align: center;
   font-size: 56px;
@@ -179,9 +181,12 @@ h6 {
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .first-container-btn {
+  display: block;
+  margin: 0 auto;
   font-family: inherit;
   background-color: var(--primary-brand-color);
   color: var(--white-color);
@@ -192,9 +197,8 @@ h6 {
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
-  margin: 0 auto;
   border: none;
-  display: flex;
+  min-width: 169px;
 }
 
 .first-container-btn:hover,
@@ -211,6 +215,7 @@ h6 {
 .second-container {
   letter-spacing: 0.02em;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .second-container-list {
@@ -267,7 +272,6 @@ h6 {
 */
 
 .third-container {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -304,8 +308,8 @@ h6 {
 }
 
 .description {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .name,
@@ -321,8 +325,12 @@ h6 {
 */
 
 .footer {
-  padding-top: 101px;
+  padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.logo-footer-margin {
+  margin-bottom: 16px;
 }
 
 .footer-logo-accent {
@@ -332,7 +340,6 @@ h6 {
 .footer-text {
   color: var(--cloud-color);
   letter-spacing: 0.02em;
-  margin-top: 18px;
   width: 264px;
 }
 
